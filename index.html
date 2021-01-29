@@ -1,56 +1,70 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
   <meta charset='UTF-8'/>
   <title>Cam's Portfolio</title>
-  <link rel='stylesheet' href='box-styles.css'/>
-  <link rel='stylesheet' href='styles.css'/>
-  </head>
-  <body>
-    <h1>Welcome!</h1>
-    <p class='fun'>My name is Cameron Dodds and I'd like to tell you a little bit about myself: </p>
-    <hr/>
+  <link rel='stylesheet' href='flex-styles.css'/>
+</head>
+<body>
 
-    <h2>About Me:</h2>
-    <p>I'm a software engineering major at BYU. I love running, working out, and being outdoors. I served a mission in Lima Peru, and speak pretty spanish pretty well. </p>
-    <p> To learn more about my hobbies <a href='http://camdodds.net/hobbies.html'
-      target='_blank'>click here</a>. To learn more about my likes and dislikes <a href='http://camdodds.net/likes.html'
-        target='_blank'>click here</a>.
-    </p>
-    <hr/>
+  <ul class='menu'>
+    <li class='nav'><a href="index.html">Home</a></li>
+    <li class='nav'><a href="images.html">Images</a></li>
+    <li class='nav'><a href="likes.html">Likes</a></li>
+    <li class='nav'><a href="hobbies.html">Hobbies</a></li>
+  </ul>
 
-    <h2>Projects:</h2>
-    <ul>
-      <li>I designed an AVL tree in CS 235 Last semester.</li>
+  <div class='topic-grid-container'>
+    <div class='topic-grid'>
+      <div class ='topic-grid-item color-baby-blue'>
+        <h1>Welcome!</h1>
+        <p>My name is Cameron Dodds and I'd like to tell you a little bit about myself: </p>
+      </div>
 
-      <li>I created a sorting program.</li>
+      <div class ='topic-grid-item color-baby-blue'>
+        <h2>About Me:</h2>
+        <p>I'm a software engineering major at BYU. I love running, working out, and being outdoors. I served a mission in Lima Peru, and speak pretty spanish pretty well. </p>
+        <p> To learn more about my hobbies <a href='http://camdodds.net/hobbies.html'
+          target='_blank'>click here</a>. To learn more about my likes and dislikes <a href='http://camdodds.net/likes.html'
+          target='_blank'>click here</a>.
+        </p>
+      </div>
 
-      <li>I made a program that takes text from any book and makes a document that sounds as if it were written by the same author.</li>
-    </ul>
-    <hr/>
+      <div class ='topic-grid-item color-baby-blue'>
+        <h2>Projects:</h2>
+        <ul class='lists'>
+          <li>I designed an AVL tree in CS 235 Last semester.</li>
 
-    <h2>Experience:</h2>
-    <p> Before leaving for Peru I worked on my grandpa's ranch as a farmhand. Since coming home I was recently trained to work at Chrysalis.</p>
-    <hr/>
+          <li>I created a sorting program.</li>
 
-    <h2>Contact Information:</h2>
-    <ul>
-      <li>Email: camerondodds00@gmail.com</li>
+          <li>I made a program that takes text from any book and makes a document that sounds as if it were written by the same author.</li>
+        </ul>
+      </div>
 
-      <li>Github: @camerondodds00</li>
+      <div class ='topic-grid-item color-cream'>
+        <h2>Experience:</h2>
+        <p> Before leaving for Peru I worked on my grandpa's ranch as a farmhand. Since coming home I was recently trained to work at Chrysalis.</p>
+      </div>
 
-      <li>Instagram: @camerondodds00</li>
-    </ul>
+      <div class ='topic-grid-item color-cream'>
+        <h2>Contact Information:</h2>
+        <ul class='none'>
+          <li>Email: camerondodds00@gmail.com</li>
 
-    <div>
-    <a class='button' href='pictures.html'>Pictures</a>
+          <li>Github: @camerondodds00</li>
+
+          <li>Instagram: @camerondodds00</li>
+        </ul>
+      </div>
+
     </div>
-    <div>
-    <a id='button-2' class='button' href='hobbies.html'>Hobbies</a>
-    </div>
-    <div>
-    <a class='button'>Button Three</a>
-    </div>
+  </div>
 
-  </body>
+  <div class='footer'>
+  <div class='footer-item footer-one'></div>
+  <div class='footer-item footer-two'></div>
+  <div class='footer-item footer-three'></div>
+</div>
+</body>
 </html>
+
